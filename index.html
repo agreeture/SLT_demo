@@ -306,8 +306,8 @@
                 <th>Example</th>
                 <th>Texts</th>
                 <th>Japanese-accented</th>
-                <th>Converted</th>
                 <th>Native English</th>
+                <th>Converted</th>
               </tr>
             </thead>
             <tbody id="audio-demo-body"></tbody>
@@ -360,8 +360,8 @@
           </div>
         </td>
         ${audioCell("Japanese-accented", `audio/katakana/${item.id}.wav`)}
-        ${audioCell("Converted", `audio/converted/${item.id}.wav`)}
         ${audioCell("Native English", `audio/native/${item.id}.wav`)}
+        ${audioCell("Converted", `audio/converted/${item.id}.wav`)}
       `;
       tbody.appendChild(row);
     });
